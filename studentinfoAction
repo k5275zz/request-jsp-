@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	request.setCharacterEncoding("UTF-8"); 
+	String sno = request.getParameter("sno");
+	String sname = request.getParameter("sname");
+	String sgrade = request.getParameter("sgrade");
+	String sub = request.getParameter("sub");
+%>
+
+<h1><%=sno %></h1>
+<h1><%=sname %></h1>
+<h1><%=sgrade %></h1>
+<h1><%=sub %></h1>
+
+</body>
+</html>
