@@ -1,6 +1,6 @@
 # request-jsp-
 
-write simple info
+write simple info use jsp
 
 ![image](https://user-images.githubusercontent.com/71121027/98190850-4d0b4000-1f5b-11eb-8fde-d32699652dc3.png)
 
